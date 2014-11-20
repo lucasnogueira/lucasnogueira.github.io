@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $lato;
   color: $myblue;
   font-weight: bold;
 
@@ -51,7 +51,7 @@ hr {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 36px !important;
   a {
     color: inherit;
   }
@@ -72,6 +72,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-family: $merri
 }
 
 a {
@@ -202,7 +203,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $lato;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -221,7 +222,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $merri;
   font-size: 18px;
 
   @include mobile {
