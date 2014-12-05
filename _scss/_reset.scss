@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 // HTML5 display-role reset for older browsers
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,4 +50,29 @@ table {
 // from: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+
+//Classes
+
+.img_span {
+  display: block;
+}
+
+.about_img_top {
+  margin: 0px 107px;
+}
+
+.about_img_bot {
+  margin: 0px 96px;
+}
+
+.about_img_loca {
+  margin-bottom: -16px;
+}
+
+.about_img_arrow {
+  height: 88px;
+  margin-bottom: -51px;
+  margin-left: 8px;
 }
