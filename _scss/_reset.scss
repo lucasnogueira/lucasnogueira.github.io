@@ -88,3 +88,59 @@ table {
   display: block;
   margin: auto;
 }
+
+.archive-list {
+  .current-post a {
+    color: #da4939;
+  }
+}
+$base-font-size:    16px!default;
+$base-line-height:  24px!default;
+$base-font-family:  sans-serif!default;
+$base-ui-color:     #ccc!default;
+
+$base-font-weight:  normal!default;
+$bold-font-weight:  bold!default;
+$base-spacing-unit: $base-line-height!default;
+
+@mixin attention() {
+  &:hover,
+  &:focus,
+  &:active {
+    @content;
+  }
+}
+
+
+$myblue: #272935;
+$myred: #da4939;
+
+
+.island {
+  display: block;
+  padding: $base-spacing-unit / 2;
+  color: white;
+  background-color: $myred;
+  text-align: center;
+  font-weight: $bold-font-weight;
+  -moz-border-radius: 6px;
+  -webkit-border-radius:6px;
+  border-radius: 10px;
+
+  @include attention() {
+    color: white;
+    background-color: #3a3d4f;
+  }
+}
+
+.time-machine-excerpt {
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 18px;
+  background-color: #eaeaea;
+  -moz-border-radius: 6px;
+  -webkit-border-radius:6px;
+  border-radius: 6px;
+}
+
+
