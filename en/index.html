@@ -1,0 +1,23 @@
+---
+layout: en/default
+---
+{% assign posts = site.posts | where:"lang","en" %}
+
+<div class="posts">
+  {% for post in posts limit:site.max_posts %}
+    <article class="post">
+
+      <h1><a class="default" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.content | truncatewords:40}}
+      </div>
+
+      <a class="default" href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+{% if posts.size > site.max_posts %}
+  <a href="/en/time-machine" class="island">Click here and access all the posts</a>
+{% endif %}

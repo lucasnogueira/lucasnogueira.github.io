@@ -11,6 +11,40 @@ description: Coding & Cool Stuff & Much More
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: #https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
+# Defaults
+defaults:
+  # Default layout and language to everything
+  -
+    values:
+      layout: "default"
+      lang: "pt-BR"
+  # Specify default pages’ layout
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  # Specify default posts’ layout
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+  # Set language for everything inside `/en`
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  # Set language for English posts
+  -
+    scope:
+      path: "en/_posts"
+      type: "posts"
+    values:
+      lang: "en"
+
 #
 # Flags below are optional
 #
@@ -51,7 +85,11 @@ baseurl: ""
 
 markdown: kramdown
 highlighter: pygments
-permalink: /:title/
+#permalink: /:title/
+permalink: /:categories/:title
+
+#max number of posts to paginate
+max_posts: 10
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
