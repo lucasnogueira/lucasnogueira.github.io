@@ -1,0 +1,14 @@
+---
+title: Máquina do Tempo
+permalink: /time-machine/
+---
+{% assign posts = site.posts | where:"lang","pt-BR" %}
+
+<ul class="archive-list">
+  {% for post in posts %}
+  <li class="{% if forloop.index > site.max_posts %}past-post{% else %}current-post{% endif %}">
+    {{ post.date | date: '%d/%m/%Y' }} - <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  <div class='time-machine-excerpt'>{{ post.excerpt }} </div>
+  {% endfor %}
+</ul>
