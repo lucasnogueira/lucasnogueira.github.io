@@ -94,14 +94,13 @@ table {
     color: #da4939;
   }
 }
-$base-font-size:    16px!default;
-$base-line-height:  24px!default;
-$base-font-family:  sans-serif!default;
-$base-ui-color:     #ccc!default;
 
-$base-font-weight:  normal!default;
-$bold-font-weight:  bold!default;
-$base-spacing-unit: $base-line-height!default;
+$myblue: #272935;
+$myred: #da4939;
+
+$line-height:  24px!default;
+$font-style:  bold!default;
+$spacing-unit: $line-height!default;
 
 @mixin attention() {
   &:hover,
@@ -111,18 +110,13 @@ $base-spacing-unit: $base-line-height!default;
   }
 }
 
-
-$myblue: #272935;
-$myred: #da4939;
-
-
 .island {
   display: block;
-  padding: $base-spacing-unit / 2;
+  padding: $spacing-unit / 2;
   color: white;
   background-color: $myred;
   text-align: center;
-  font-weight: $bold-font-weight;
+  font-weight: $font-style;
   -moz-border-radius: 6px;
   -webkit-border-radius:6px;
   border-radius: 10px;
@@ -142,5 +136,3 @@ $myred: #da4939;
   -webkit-border-radius:6px;
   border-radius: 6px;
 }
-
-
