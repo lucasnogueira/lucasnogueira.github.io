@@ -32,7 +32,7 @@ context '#method' do
 
  # Better :)
   it 'changes the object name' do
-    expect(object).name to eq  'changed'
+    expect(object).name to eq 'changed'
   end
 
   it 'changes the object email' do
@@ -74,7 +74,7 @@ Caso precise de algo diferente, acesse a página deles [aqui](https://github.com
 ## 3 - Let, let! e porque utilizar
 
 Em vez de instanciar variáveis por todo seu arquivo de teste o Rspec fornece uma ferramente importante: `let`.
-No primeiro eu criei um `let` de `object` para os meus testes. O mais importante aqui é que a criação definitiva
+No primeiro exemplo eu criei um `let` de `object` para os meus testes. O mais importante aqui é que a criação definitiva
 de `object` só irá ocorrer sua chamada, ou seja, no momento em que passei o mesmo para o método do `subject`.
 A partir deste momento, em todos os lugares do meu teste poderei chamar `object` sem problemas.
 
@@ -96,7 +96,8 @@ de qualquer exemplo.
 Existem diversos _matchers_ que você pode utilizar, como citado no título. Além desses existem também os seus
 opostos, `be false`, `be_falsey` e etc. Mas, eles são muito parecidos em nome, como vou saber qual utilizar? :fearful:
 
-`be true` checa literalmente se o valor de algo é `true`, enquanto `be_truthy` checa se o valor de algo é verdadeiro.
+Aqui a resposta: `be true` checa literalmente se o valor de algo é `true`, enquanto `be_truthy` checa se o valor de
+algo é verdadeiro.
 
 Acho melhor vermos os exemplos:
 
@@ -106,7 +107,7 @@ it { expect(true).to be true }
 it { expect(false).to be false }
 
 it { expect(true).to be_truthy }
-it { expect("String").to be_truthy }
+it { expect('String').to be_truthy }
 it { expect(false).to be_falsey }
 it { expect(nil).to be_falsey }
 
@@ -115,7 +116,7 @@ it { expect('String').to be true }
 it { expect(nil).to be false}
 
 it { expect(nil).to be_truthy }
-it { expect("String").to be_falsey }
+it { expect('String').to be_falsey }
 {% endhighlight %}
 
 ## 5 - A sintaxe mudou, e agora?
