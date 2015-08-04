@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Cassandra & Ruby
+redirect_from:
+  - /Cassandra-&-Ruby/
 ---
 
 Recentemente tive a oportunidade de mexer um pouco com o banco de dados [Apache Cassandra](http://cassandra.apache.org/).
