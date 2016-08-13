@@ -2,8 +2,6 @@
 layout: post
 title: PostgreSQL and Rails
 ---
-## Introduction
-
 We have some good Open Source Database options available today, and this is really good. Relational or not,
 what matters is that today we are so covered that sometimes it is hard to decide between so many options,
 mainly because changing in the future will probably always lead to a lot of time consumption.
