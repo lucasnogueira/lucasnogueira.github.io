@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/lucasnogueira
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of http://lucasnogueira.me
+* I am lucasnogueira (https://keybase.io/lucasnogueira) on keybase.
+* I have a public key with fingerprint F9A9 5418 4293 F7D1 A26D  4A38 93AA DC8B FD9D 3034
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012018be507fba589bac8ea53bf1707986941146fc61c318fd2d637ce75c7ad5d2ec0a",
+      "fingerprint": "f9a954184293f7d1a26d4a3893aadc8bfd9d3034",
+      "host": "keybase.io",
+      "key_id": "93aadc8bfd9d3034",
+      "kid": "0101564cb188eeb64cd8b40c04c36317b9b495e1bed0794afb9f80dc81ce05997d1a0a",
+      "uid": "0090689aa2661c95b05401caf394ae19",
+      "username": "lucasnogueira"
+    },
+    "service": {
+      "hostname": "lucasnogueira.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1472908158,
+  "expire_in": 157680000,
+  "prev": "793e77af106e93c0891c1821bf0c02c286fc9eae903b3ef88405c4a824cace6a",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMNqAnicbZJ9UBVVGMbvpUgBJRpGnfLjDiuMGRfZs9/n0gDZkJTmpCAMM+Rt9+zZ
+ezdwL9wPxFEwyoQZBzQim+HD1DRNMYJgrNQCpDspEDLQNVKRmqAoMBys7AOmcyn/
+8/yzZ9/zPL993ndP18IHTOHmN09d3zfTQHPm7o7DPlP25e7SnZTiUndQtp1UHp57
+4HwVe7z2PF2lbBQNGBpICuZpUVNkXoKKjCQs86yiAZEWoSRADgBO0JAAEAskTWVU
+gRURFnkkyiqvMhjRMmWlNN1wYHeBWze8BKtBGfIckDgGspqoApkRVE5mJcjKsook
+RVOhytIsR4xOlyfoIOEU2YPX6C5SIy/2uXj30d/LTQNe4JACJAljhexUSeFoRHOI
+FVggKlDhII+BglXSBSdrCtQkmqAAwjQPYTDTXG7ffzga0oIEZZKT9Al5heY5GiBZ
+Y4kXAxgUerDbkLdhos73IdljuBw+rLtlqsRKkaMiHeHgdIPt3E+2hpSsVIHb5XUh
+Vz45dXq9Bbag2bujIKjejhX7/xy7ohsqmScxFGG3R3cZlA0QJfLqQTDgRAbSEuAl
+K4WLC3Q3tutBBS8KEk1W8DO4iCBFyGJRlDVACxiyiJYgQEBigKKRQTGIkchvhVjG
+kGYVFmuSxNE84mSJ4ZCMsBAcjwcXGi7CJlCv7CBMj+4wZK/PjamSzo7cB03mcNND
+oSHBi2YKD4u6d/3Y0ShT04DzzqNvVA37MyoGLoyHp5gS/frY6z61AYWcO91fo8X/
+2F6xbRIWOvf3LSgfWzG06+FHQgotVUebOxsXVbWnK+tLk9MyYEvFiAS+1laX2ePs
+URcvtpalrduVAgK2vj8Da7+ZN5FoCmkZrkvNiEuuW5k0sXnptbzCI8vi90Quyr6z
+wb86dOGZlKwZ5HCv3N291TYY92Rk6fIN3676LL2rm43bo0b0Hj+d5D/ibO64ML1v
+4wdthnCwN2l9j+dq0lDL7itqdl3t+Im0vL4V3c3Hflq+ONkSdmt7qrkHrpqd7GKa
+Pm/VcdmIkRa+OOvysPVL1z8306o3nUjEP7tfbc0qb5l/iw5syY17zgq9JTe4m9a3
+x/+anfzo8aXJtyOqnamHTp6Jf/mr7wbxr12XOq9bJjbdNcwpT70X1u+Y1osSMsef
+jzV/eu2F156dL+b0vY/bZ4068zO273Mbio0vAr6phJH6vZnnYt3IP6xPVuZH1rc5
+NYA7cn74EI2mlBZn/PHu2G+V3Lrysl8SHmvcar37RI7pFS1vSe/anKtTjXtDaoYO
+mXuqSwRPy7EFs/Oktt4b6YGKwPnC35siPplmYjc2XKm0vGXpPRk9FVoSldH696na
+g08f7kkcSI0vjL69mVf9Nf2Zgz0xL404YzLfcR29VDxzNro+YcuS8wkHlg1YYsqO
+1x44++LHo/8CIIXGCg==
+=wZLE
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lucasnogueira
+
+==================================================================
